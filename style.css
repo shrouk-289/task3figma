@@ -1,0 +1,857 @@
+body{
+    padding: 0;
+   width: fit-content;
+   overflow-x: hidden;
+   width: fit-content;
+}
+.home{
+    margin: -20px;
+    background-color:#1b1c1f;
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+    height: fit-content;
+    
+}
+.home .img_ananas{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+     
+}
+ 
+.home .img_ananas img{
+    width: 513px;
+    position: relative;
+    top: 130px;
+    height: 700px;
+     filter: drop-shadow( -10px 10px 20px rgba(109, 108, 108, 0.8));
+}
+.home nav{
+    display: flex;
+    height: 112px;
+    background-color:#070707;
+    position: relative;
+    z-index: 2;
+    bottom:698px;
+    justify-content: space-between ;
+    width: 93%;
+    left: 146px;
+    padding: 19px 16px;
+    box-shadow: 0 8px 8px 0 #000;
+    box-sizing: border-box;
+}
+.home nav ul{
+    display: flex; 
+    list-style: none;
+    
+}
+.home nav ul a ,.home nav ul button{
+    text-decoration: none;
+   color: white;
+   font-size: 18px;
+   font-weight: lighter;
+  text-shadow: 1px 2px 9px rgba(255, 255, 255, 0.5);
+}
+.home nav ul button{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+.home nav ul li{
+    margin-right: 35px;
+
+}
+.home nav .logo{
+    width: 50px;
+    color:white ;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.home nav .logo .s1{
+    font-size: 27px;
+    font-weight: 900;
+    position: relative;
+    bottom: 15px;
+}
+.home nav .logo .s2{
+    font-family: "Sacramento", cursive;
+  font-weight: 00;
+  font-style: normal;
+    position: relative;
+    font-size: 25px;
+    bottom: 15px;
+
+}
+.home .aside1{
+    width: 142px;
+    background-color: #0c0c0c;
+    height: 900px;
+    position: relative;
+    bottom: 810px;
+    border: 2px solid #262424;
+    z-index: 3;
+
+
+}
+.home .aside1 button{
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 4px 0px #000;
+    width: 138px;
+    height: 112px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    border: none;
+   text-align: center;
+}
+.home .aside1 button i{
+    color: #555;
+    text-shadow: 0 4px 4px 0 #000;
+    position: relative;
+    
+    font-size: 40px;
+    
+}
+.home .aside2{
+  width: 123px;
+  height: 210px;
+  position: relative;
+  bottom: 1550px; 
+  left: 1860px;
+  background-color: #dec700;
+  border-radius: 50px 0 0px 50px;  
+}
+.home .aside2 li{
+    list-style: none;
+  
+}
+.home .aside2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home .aside2 li i{
+   color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    margin-left: -14px;
+}
+.home .end_sec1{
+    height: 204px;
+    width: 100%;
+  
+  background-color: rgba(163, 161, 161, 0.1);
+ position: relative;
+ z-index: 5;
+ display: flex;
+ justify-content: space-between;
+ bottom: 1492px;
+ overflow: hidden;
+ left: 146px;
+ 
+}
+.text_cont .text_left   {
+    width: 40%;
+    height: 204px;
+}
+ 
+.img_orang_water .or{
+    width: 240px;
+    height: 204px;
+    position: relative;
+    right:1470px;
+    bottom: 84px;
+}
+.text_left{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 300px;
+ 
+}
+
+.text_cont .text_ri{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 1400px;
+    width: 40%;
+    height: 204px;
+    bottom: 204px;
+}
+.img_orang_water .wat{
+    position: relative;
+    right: 800px;
+     width: 230px;
+}
+.text_left , .text_ri{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.text_left .t1 h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+.text_ri .t1 h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+ .oran_p1{
+    margin-top: -10px;
+    color: white;
+    width:200px ;
+    height: 42px;
+    line-height: 17px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12px;
+
+ }
+  .text_left .t2{
+    gap: 30px;
+     margin-left: 27px;
+    width: 250px;
+    color: white;
+    font-size: 21px;
+  }
+  .text_ri .t2{
+    gap: 30px;
+     margin-left: 27px;
+    width: 250px;
+    color: white;
+    font-size: 21px;
+  }
+
+   .text_left .price{
+    display: flex;
+    gap: 10px;
+  }
+   .text_ri .price{
+    display: flex;
+    gap: 10px;
+  }
+
+
+    .text_left .price del{
+        color: rgb(148, 146, 146);
+        font-size: 14px;
+        position: relative;
+        top: 5px;
+    }
+  .text_ri .price del{
+        color: rgb(148, 146, 146);
+        font-size: 14px;
+        position: relative;
+        top: 5px;
+    }
+
+    .text_left .t2 button{
+         width: 96px;
+         height: 37px;
+         border-radius: 4px;
+         border: none;
+         color: white;
+         background-color: #dec700;
+       box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.39);
+    }
+    .text_ri .t2 button{
+         width: 96px;
+         height: 37px;
+         border-radius: 4px;
+         border: none;
+         color: white;
+         background-color: #dec700;
+       box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.39);
+    }
+      .t3{
+        position: absolute;
+        width: 250px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 12px;
+        top: 118px;
+
+     }
+      .t3 .loader{
+        display: flex;
+        gap: 5px;
+         position: relative;
+         left: 80px;
+      }
+     .t3 .loader div{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+
+
+     }
+
+       .t3 .loader .l1{
+        background-color: rgb(206, 204, 204);
+       }
+
+       .t3 .loader .l2{
+        background-color: rgb(87, 85, 85);
+       }
+        .t3 .loader .l3{
+        background-color: rgb(87, 85, 85);
+       }
+       .text_ri{
+        position: relative;
+        right: 200px;
+       }
+
+       .text1{
+        color: white;
+        position: absolute;
+        bottom: 1470px;
+        left: 200px;
+        display: flex;
+        flex-direction: column;
+        z-index: 9;
+       }
+       .text1 .p2{
+            
+        width: 250px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: -9px;
+       }
+       .text1  .p1{
+         font-size: 22px;
+       }
+       .text1 .p1 span{
+           color: rgb(153, 152, 152);
+       }
+       .text2 {
+         color: white;
+        position: relative;
+        bottom: 1600px;
+        
+        display: flex;
+        flex-direction: column;
+        left: 1200px;
+       }
+       .text2  p{
+           width: 280px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 12px;
+        margin-top: -9px;
+        
+       }
+       .text2 .span1{
+        font-size: 65px;
+
+       }
+
+       .text2 .span2{
+   font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #dec700;
+  font-size: 16px;
+       }
+
+       .favorite{
+        width: 90%;
+        margin: 0 auto;
+        height: 500px;
+        position: relative;
+        bottom: 1450px;
+        left: 50px;
+       }
+       .card_fa{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       }
+       .card_fav{
+        width:400px;
+        height: 416px;
+        background-color: #18181a;
+        overflow: hidden;
+        margin-bottom: 50px;
+       }
+       .favorite .fav_nav{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+       }
+         .favorite .fav_nav p{
+          font-family: "Roboto", sans-serif;
+          font-weight: 900;
+          font-style: normal;
+          font-size: 32px;
+         }
+         .fruite .fav_nav p{
+          font-family: "Roboto", sans-serif;
+          font-weight: 900;
+          font-style: normal;
+          font-size: 32px;
+         }
+         .favorite .fav_nav button{
+          background-color: transparent;
+          border: none;
+          color: white;
+          font-size: 17px;
+          position: relative;
+          font-weight: 400;
+          
+         }
+          .fruite .fav_nav button{
+          background-color: transparent;
+          border: none;
+          color: white;
+          font-size: 17px;
+          position: relative;
+          font-weight: 400;
+          
+         }
+          .favorite .fav_nav button i{
+            margin-left: 28px;
+          }
+           .fruite .fav_nav button i{
+            margin-left: 28px;
+          }
+            .favorite hr{
+              background-color: #313131;
+                height: 3px;
+                border: none;
+                margin-bottom: 30px;
+            }
+            .fruite hr{
+              background-color: #313131;
+                height: 3px;
+                border: none;
+                margin-bottom: 30px;
+            } 
+              .favorite .img_fav img{
+                width: 400px;
+                height: 214px;
+
+              }
+               .fruite .img_fav img{
+                width: 400px;
+                height: 214px;
+
+              }
+              .favorite .fav_data{
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: -28px;
+                color: white;
+              }
+                .fruite .fav_data{
+                padding: 20px;
+                box-sizing: border-box;
+                margin-top: -28px;
+                color: white;
+              }
+               .favorite .fav_data .p1 h3{
+                 font-family: "Roboto", sans-serif;
+                  font-weight: 400;
+                  font-size: 16px;
+                  margin-bottom: -10px;
+               }
+                .fruite .fav_data .p1 h3{
+                 font-family: "Roboto", sans-serif;
+                  font-weight: 400;
+                  font-size: 16px;
+                  margin-bottom: -10px;
+               }
+                .favorite .fav_data .p1 p{
+                  font-family: "Poppins", sans-serif;
+                  font-weight: 100;
+                  font-style: normal;
+                  font-size: 12px;
+                }
+                   .fruite .fav_data .p1 p{
+                  font-family: "Poppins", sans-serif;
+                  font-weight: 100;
+                  font-style: normal;
+                  font-size: 12px;
+                }
+                .favorite .fav_data  .price_fav{
+                  display: flex;
+                  margin-top: -25px;
+                }
+                 .fruite .fav_data  .price_fav{
+                  display: flex;
+                  margin-top: -25px;
+                }
+            .favorite .fav_data  .price_fav p{
+                 font-family: "Poppins", sans-serif;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-size: 20px;
+            }    
+
+            .fruite .fav_data  .price_fav p{
+                 font-family: "Poppins", sans-serif;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-size: 20px;
+            }
+          .favorite .price_fav del {
+               color: rgb(148, 146, 146);
+               font-size: 14px;
+               position: relative;
+               top: 27px;
+               left: 10px;
+          }
+          .fruite .price_fav del {
+               color: rgb(148, 146, 146);
+               font-size: 14px;
+               position: relative;
+               top: 27px;
+               left: 10px;
+          }
+            .favorite .button_fav{
+              margin-left: 0px;
+              display: flex;
+              gap: 70px;
+            }
+             .fruite .button_fav{
+              margin-left: 0px;
+              display: flex;
+              gap: 70px;
+            }
+            .favorite .button_fav .but1{
+              box-sizing: border-box;
+              width: 96px;
+              height: 37px;
+              border: 2px solid white;
+              display: flex;
+              justify-content: space-between;
+            }
+             .fruite .button_fav .but1{
+              box-sizing: border-box;
+              width: 96px;
+              height: 37px;
+              border: 2px solid white;
+              display: flex;
+              justify-content: space-between;
+            }
+             .favorite .button_fav .but1 .increas{
+              background-color: transparent;
+              border: none;
+              color: white;
+              font-size: 20px;
+              margin-left: 5px;
+             }
+               .fruite .button_fav .but1 .increas{
+              background-color: transparent;
+              border: none;
+              color: white;
+              font-size: 20px;
+              margin-left: 5px;
+             }
+
+             .favorite .button_fav .but1 .decrease{
+              background-color: transparent;
+              border: none;
+              color: white;
+              font-size: 30px;
+              margin-right: 5px;
+              position: relative;
+              bottom: 5px;
+              width: fit-content;
+             }
+             .fruite .button_fav .but1 .decrease{
+              background-color: transparent;
+              border: none;
+              color: white;
+              font-size: 30px;
+              margin-right: 5px;
+              position: relative;
+              bottom: 5px;
+              width: fit-content;
+             }
+             .favorite .button_fav .but1 p{
+               font-size: 22px;
+               position: relative;
+               bottom: 18px;
+             }
+              .favorite .buy_fav button{
+                width: 96px;
+                height: 37px;
+                border-radius: 4px;
+                border: none;
+                color: white;
+                background-color: #dec700;
+                box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.39);
+              }
+
+              .fruite .button_fav .but1 p{
+               font-size: 22px;
+               position: relative;
+               bottom: 18px;
+             }
+              .fruite .buy_fav button{
+                width: 96px;
+                height: 37px;
+                border-radius: 4px;
+                border: none;
+                color: white;
+                background-color: #dec700;
+                box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.39);
+              }
+                .fruite{
+        width: 90%;
+        margin: 0 auto;
+        height: 500px;
+        position: relative;
+        bottom: 1330px;
+        left: 50px;
+       }
+       .fruite .fav_nav{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+       }
+       footer{
+        height: 50px;
+        background-color: transparent;
+        position: relative;
+        
+
+       }
+        .about{
+          height: fit-content;
+          background-color: #000;
+          position: relative;
+          bottom: 690px;
+          overflow: hidden;
+        }
+     .about .nav_about{
+      padding-top: 20px;
+      padding-left: 160px;
+      padding-right: 40px;
+       display: flex;
+       justify-content:space-between;
+       color: white;
+     }  
+     .about .nav_about p{
+      font-family: "Roboto", sans-serif;
+     font-weight: 900;
+    font-style: normal;
+    font-size: 32px;
+     }
+
+     .about .nav_about  button{
+      color: white;
+      background-color: transparent;
+      border: none;
+      position: relative;
+      top: 30px;
+      font-size: 19px;
+      font-weight: 100;
+      right: 50px;
+     }
+     .about hr{
+      width: 87%;
+      margin :0  auto ;
+      background-color: #555;
+      height: 3px;
+      border: none;
+      position: relative ;
+      left:34px;
+     }
+     .about .cards_about{
+      display: flex;
+     gap: 40px;
+      position: relative;
+      left: 150px;
+      bottom: 20px;
+
+     }
+     .about .about_card{
+      margin-top: 50px;
+      width: 538px;
+      height: fit-content;
+      background-color: #363636;
+     }
+     .about_card .star{
+      margin-top: 20px;
+      margin-left: 20px;
+      display: flex;
+      gap: 20px;
+     }
+     .about_card .star .stars i{
+      color: white;
+      font-size: 12px;
+     }
+     .about_card .star img{
+      border-radius: 50%;
+      width: 60px;
+      height:60px;
+     }
+      .about_card .star .stars{
+        margin-top: 20px;
+      }
+      .about_card .data_about h3{
+        margin-bottom: -10px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        margin-left: 23px;
+      }
+        .about_card .data_about p{
+          width: 290px;
+          color: white;
+          margin-left: 23px;
+         font-family: "Poppins", sans-serif;
+          font-weight: 100;
+          font-style: normal;
+          font-size: 14px;
+        }
+        .about_card .circles{
+          display: flex;
+          flex-direction: column;
+           position:relative ;
+           left: 289px;
+           bottom: 110px;
+        }
+         .about_card .circles .row1{
+          display: flex;
+          margin-bottom: 10px;
+         }
+         .about_card .circles .row2{
+          display: flex;
+         }
+         .about_card .circles .row1 div ,.about_card .circles .row2 div {
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: rgba(255, 255, 255, 0.4);
+          margin-right: 9px;
+          box-shadow: 1px 1px 10px white;
+          opacity: 0.3px;
+         }
+         .foot_end{
+          height: fit-content;
+          position: relative;
+          background-color:transparent;
+          bottom: 705px;
+
+         }
+         .foot_end .fot1{
+          margin-left: 149px;
+          display: flex;
+          color: white;
+          gap:50px ;   
+          margin-top: 70px;
+      }
+      .foot_end .fot1 .sub{
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 32px;
+        color: #898888;
+        width: 240px;
+      }
+
+      
+         .foot_end .fot1 .input{
+          margin-left: 20px;
+         }
+         .foot_end .fot1 input{
+             background-color: transparent;
+             width: 990px;
+             height: 59px;
+             color: white;
+             padding: 18px;
+             box-sizing: border-box;
+             border: 1px solid white;
+             position: relative;
+             top: 42px;
+         }
+         .foot_end .fot1 button{
+           width: 149px;
+           height: 59px;
+           position: relative;
+          left: 842px;
+          bottom: 17px;
+         }
+         .foot_end .fot1 .icons_footer{
+          width: 354px;
+          height: 188px;
+          background-color: #323232;
+          position: relative;
+           bottom: 20px;
+           font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+            padding: 50px;
+            box-sizing: border-box;
+         }
+
+        .foot_end .fot1 .icons_footer .icon_s{
+          display: flex;
+          gap: 15px;
+        }
+      .fot2{
+        height: 250px;
+        display: flex;
+        justify-content: space-between; 
+      }
+      .fot2  .logo{
+    width: 50px;
+    color:white ;
+    margin-left: 154px;
+    font-size: 20px;
+}
+
+.fot2  .logo .s1{
+    font-size: 27px;
+    font-weight: 900;
+    position: relative;
+    bottom: 40px;
+}
+.fot2 .logo .s2{
+    font-family: "Sacramento", cursive;
+  font-weight: 400;
+  font-style: normal;
+    position: relative;
+    font-size: 25px;
+    bottom: 40px;
+
+}
+.fot2 ul  {
+  list-style: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  display: flex;
+  gap: 180px;
+  margin-right: 50px;
+}
+.fot2 li a{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  text-decoration: none;
+}
